@@ -16,18 +16,18 @@ Unlike affordable commercial alternatives, our design integrates a custom high-p
 * **Safety:** Multi-layer protection combining a Daly 40A Battery Management System (BMS) with our custom monitoring board and active cooling.
 
 ## System Architecture
-[span_5](start_span)The system is controlled by an **STM32F103C8Tx Blue Pill** microcontroller[span_5](end_span). [span_6](start_span)[span_7](start_span)To simplify the design and communication path, all digital monitors, including the ADCs and the OLED screen, are hosted on a single I2C channel[span_6](end_span)[span_7](end_span).
+The system is controlled by an **STM32F103C8Tx Blue Pill** microcontroller. To simplify the design and communication path, all digital monitors, including the ADCs and the OLED screen, are hosted on a single I2C channel.
 
 **Key Components:**
-* **[span_8](start_span)[span_9](start_span)Current Monitoring:** INA series sensor (INA226/INA228) for highly accurate, bidirectional power measurement[span_8](end_span)[span_9](end_span).
+* **Current Monitoring:** INA series sensor (INA226/INA228) for highly accurate, bidirectional power measurement.
 * **Voltage Sensing:** MCP6004 Op-Amp configured for true rail-to-rail I/O to safely step down the maximum cell voltage for the STM32's ADC.
-* **[span_10](start_span)Thermal Monitoring:** ADS1115 paired with NTC 10k thermistors to track cell temperatures across the pack[span_10](end_span).
-* **[span_11](start_span)[span_12](start_span)User Interface:** An upgraded OLED display provides real-time feedback to the user on changing battery values[span_11](end_span)[span_12](end_span).
-* **[span_13](start_span)Hardware Integration:** All power, sensing, and control components are being integrated into a custom-manufactured PCB[span_13](end_span).
+* **Thermal Monitoring:** ADS1115 paired with NTC 10k thermistors to track cell temperatures across the pack.
+* **User Interface:** An upgraded OLED display provides real-time feedback to the user on changing battery values.
+* **Hardware Integration:** All power, sensing, and control components are being integrated into a custom-manufactured PCB.
 
 ## Team Members
 * Gonzalo Cervera-Aguinaga
 * Darren Mora
 * Javier Castro-Frausto
-* (start_span)Andres Sierra Cantu(end_span)
+* Andres Sierra Cantu
 
