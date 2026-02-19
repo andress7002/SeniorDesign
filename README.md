@@ -1,4 +1,3 @@
-# SeniorDesign
 # Intelligent Portable Power Station
 
 This repository contains the hardware and software design files for our Senior Design Project at UTRGV. 
@@ -30,5 +29,5 @@ Unlike affordable commercial alternatives, our design integrates a custom high-p
 * Gonzalo Cervera-Aguinaga
 * Darren Mora
 * Javier Castro-Frausto
-* [span_14](start_span)Andres Sierra Cantu[span_14](end_span)
+* (start_span)Andres Sierra Cantu(end_span)
 
