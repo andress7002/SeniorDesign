@@ -1,4 +1,4 @@
-#Portable Power Station
+# Portable Power Station
 
 This repository contains the hardware and software design files for our Senior Design Project at UTRGV. 
 
