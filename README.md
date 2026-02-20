@@ -9,7 +9,7 @@ Unlike affordable commercial alternatives, our design integrates a custom high-p
 
 ## Key Specifications
 * **Battery Capacity:** 40Ah total capacity utilizing a 3S8P configuration of EVE 50E 21700 cells.
-* **Power Outputs:** * 120W car lighter output (10A @ 12V)
+* **Power Outputs:**  120W car lighter output (10A @ 12V)
   * 100W USB-C Power Delivery port
   * 65W USB-C standard port
   * Dual 12W USB-A ports
