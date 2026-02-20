@@ -1,6 +1,6 @@
 # Portable Power Station
 
-This repository contains the hardware and software design files for our Senior Design Project at UTRGV. p
+This repository contains the hardware and software design files for our Senior Design Project at UTRGV. 
 
 ## Overview
 Current portable power stations often suffer from poor State-of-Charge (SOC) estimation, inaccurate runtime predictions, and binary failure modes. Our primary objective is to solve this by designing and building an intelligent portable power station that delivers accurate, predictive battery statistics alongside early warnings and predictive thermal management. 
